@@ -118,13 +118,13 @@ stages:
       inputs:
         command: 'custom'
         custom: 'pack'
-        arguments: '-c Release -o $(Build.BinariesDirectory)\nuget\ApplicationInspector_$(ReleaseVersion)'
+        arguments: '-c Release -o $(Build.BinariesDirectory)\nuget\ApplicationInspector_$(ReleaseVersion) /p:DebugType=None'
     - task: DotNetCoreCLI@2
       displayName: Pack Nupkg (Dotnet Tool)
       inputs:
         command: 'custom'
         custom: 'pack'
-        arguments: '-c Release -o $(Build.BinariesDirectory)\nuget\ApplicationInspector_$(ReleaseVersion)'
+        arguments: '-c Release -o $(Build.BinariesDirectory)\nuget\ApplicationInspector_$(ReleaseVersion) /p:DebugType=None'
     - task: AntiMalware@3
       displayName: Anti-Malware Scan
       inputs:
