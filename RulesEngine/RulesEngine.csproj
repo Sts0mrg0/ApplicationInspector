@@ -1,23 +1,22 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.0</TargetFramework>    
-    <PackageId>RulesEngine</PackageId>
-    <PackageVersion>1.0.2</PackageVersion>
+    <TargetFramework>netcoreapp3.1</TargetFramework>    
+    <Version>0.0.0</Version>
     <Authors>Microsoft</Authors>
-    <PackageTags>Security Static Analysis</PackageTags>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageLicenseUrl>https://github.com/Microsoft/ApplicationInspector</PackageLicenseUrl>
-    <Copyright>(c) Microsoft Corporation. All rights reserved</Copyright>
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright> 
     <Description>RulesEngine is used by Application Inspector exclusively as a derivitive of a non-supported .NET version of Microsoft.DevSkim as a part now of Microsoft Application Inspector.</Description>
-    <PackageIconUrl></PackageIconUrl>
-    <PackageProjectUrl>https://github.com/Microsoft/ApplicationInspector</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Microsoft/ApplicationInspector</RepositoryUrl>
-    <PackageReleaseNotes>1.0 General Release</PackageReleaseNotes>
     <HighEntropyVA>true</HighEntropyVA>
     <AssemblyName>RulesEngine</AssemblyName>
     <RootNamespace>RulesEngine</RootNamespace>
-    <Version>1.0.17</Version>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>RulesEngine</PackageId>
+    <PackageTags>Security Static Analysis</PackageTags>
+    <PackageVersion>0.0.0</PackageVersion>
+    <PackageProjectUrl>https://github.com/Microsoft/ApplicationInspector</PackageProjectUrl>	
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageIcon>TODO-128.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,5 +38,10 @@
   <ItemGroup>
     <EmbeddedResource Include="Resources\comments.json" />
     <EmbeddedResource Include="Resources\languages.json" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\LICENSE.txt" Pack="true" PackagePath=""/>
+    <None Include="..\TODO-128.png" Pack="true" PackagePath=""/>
   </ItemGroup>
 </Project>

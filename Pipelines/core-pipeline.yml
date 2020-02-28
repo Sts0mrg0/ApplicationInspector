@@ -230,7 +230,7 @@ stages:
       inputs:
         ConnectedServiceName: 'AppInspector_CodeSign'
         FolderPath: '$(Build.BinariesDirectory)/linux/ApplicationInspector_$(ReleaseVersion)'
-        Pattern: 'AppInspector.dll, RulesEngine.dll'
+        Pattern: 'AppInspector.dll, RulesEngine.dll, MultiExtractor.dll'
         signConfigType: 'inlineSignParams'
         inlineOperation: |
           [
@@ -263,7 +263,7 @@ stages:
       inputs:
         ConnectedServiceName: 'AppInspector_CodeSign'
         FolderPath: '$(Build.BinariesDirectory)/macos/ApplicationInspector_$(ReleaseVersion)'
-        Pattern: 'AppInspector.dll, RulesEngine.dll'
+        Pattern: 'AppInspector.dll, RulesEngine.dll, MultiExtractor.dll'
         signConfigType: 'inlineSignParams'
         inlineOperation: |
           [
@@ -296,7 +296,7 @@ stages:
       inputs:
         ConnectedServiceName: 'AppInspector_CodeSign'
         FolderPath: '$(Build.BinariesDirectory)\windows\ApplicationInspector_$(ReleaseVersion)'
-        Pattern: 'AppInspector.dll, AppInspector.exe, RulesEngine.dll'
+        Pattern: 'AppInspector.dll, AppInspector.exe, RulesEngine.dll, MultiExtractor.dll'
         signConfigType: 'inlineSignParams'
         inlineOperation: |
           [
@@ -329,7 +329,7 @@ stages:
       inputs:
         ConnectedServiceName: 'AppInspector_CodeSign'
         FolderPath: '$(Build.BinariesDirectory)/netcoreapp/ApplicationInspector_$(ReleaseVersion)'
-        Pattern: 'AppInspector.dll, AppInspector.exe, RulesEngine.dll'
+        Pattern: 'AppInspector.dll, AppInspector.exe, RulesEngine.dll, MultiExtractor.dll'
         signConfigType: 'inlineSignParams'
         inlineOperation: |
           [
