@@ -17,11 +17,11 @@
     <Company>Microsoft</Company>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackAsTool>true</PackAsTool>
-    <PackageId>ApplicationInspector</PackageId>
+    <PackageId>Microsoft.ApplicationInspector</PackageId>
     <PackageVersion>0.0.0</PackageVersion>
     <PackageProjectUrl>https://github.com/microsoft/ApplicationInspector</PackageProjectUrl>
     <PackageTags>Security Static Analyzer</PackageTags>
-    <ToolCommandName>applicationinspector</ToolCommandName>
+    <ToolCommandName>appinspector</ToolCommandName>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
     <PackageIcon>TODO-128.png</PackageIcon>
   </PropertyGroup>

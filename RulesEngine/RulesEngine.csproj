@@ -11,12 +11,6 @@
     <AssemblyName>RulesEngine</AssemblyName>
     <RootNamespace>RulesEngine</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <PackageId>RulesEngine</PackageId>
-    <PackageTags>Security Static Analysis</PackageTags>
-    <PackageVersion>0.0.0</PackageVersion>
-    <PackageProjectUrl>https://github.com/Microsoft/ApplicationInspector</PackageProjectUrl>	
-    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <PackageIcon>TODO-128.png</PackageIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -40,8 +34,4 @@
     <EmbeddedResource Include="Resources\languages.json" />
   </ItemGroup>
   
-  <ItemGroup>
-    <None Include="..\LICENSE.txt" Pack="true" PackagePath=""/>
-    <None Include="..\TODO-128.png" Pack="true" PackagePath=""/>
-  </ItemGroup>
 </Project>
