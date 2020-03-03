@@ -17,7 +17,7 @@
     <Company>Microsoft</Company>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <PackAsTool>true</PackAsTool>
-    <PackageId>Microsoft.ApplicationInspector</PackageId>
+    <PackageId>Microsoft.CST.ApplicationInspector</PackageId>
     <PackageVersion>0.0.0</PackageVersion>
     <PackageProjectUrl>https://github.com/microsoft/ApplicationInspector</PackageProjectUrl>
     <PackageTags>Security Static Analyzer</PackageTags>
